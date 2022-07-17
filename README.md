@@ -5,7 +5,7 @@ This project is based on an article by Tim Urban laying out how many weeks someo
 Initially, you think that this graph would have minuscule little dots, but no. 
 You can really see all the dots.
 
-
+```
 age = input("What is your age?\n")
 ageInt = int(age)
 daysLeft = 32850 - (ageInt * 365)
@@ -14,6 +14,7 @@ monthsLeft = 1080 - (ageInt * 12)
 yearsLeft = 90 - ageInt
 
 print(f"You have {daysLeft} days, {weeksLeft} weeks, {monthsLeft} months, and {yearsLeft} years left.")
+```
 
 <img width="611" alt="Screen Shot 2022-07-17 at 9 32 48 AM" src="https://user-images.githubusercontent.com/66803124/179400861-1ebb6611-65d5-4387-8fdd-e25183b10a56.png">
 
